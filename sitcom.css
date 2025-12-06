@@ -1,0 +1,125 @@
+/* Fundo com gradiente */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(90deg, #ff6b6b, #ffd56b);
+}
+
+/* MENU */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.menu {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+/* Botões do menu */
+.btn-menu {
+    background: #ff6b6b;
+    padding: 10px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.25s ease;
+}
+
+/* Hover dos botões */
+.btn-menu:hover {
+    background: #ff4a4a;
+    transform: scale(1.08);
+}
+
+/* ÁREA DO CARD */
+.sobre-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Card branco */
+.sobre-card {
+    background: white;
+    width: 80%;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.25s ease;
+}
+
+/* Hover no card (igual aos botões) */
+.sobre-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Título com caixa colorida */
+.titulo-box {
+    background: linear-gradient(90deg, #ffd56b, #ff6b6b);
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+/* Texto do card */
+.sobre-card p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+.oque {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.oque-card {
+    width: 85%;
+    max-width: 900px;
+    background-color: #ffffff;
+    padding: 30px 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+/* HOVER igual aos outros cards */
+.oque-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.titulo-oque {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffd56b;
+    margin-bottom: 10px;
+}
+.linha {
+    width: 100%;
+    height: 3px;
+    background-color: #ff6b6b;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+/* Texto */
+.oque-card p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+}
